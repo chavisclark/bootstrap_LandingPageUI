@@ -9,6 +9,29 @@
     <meta name="author" content="">
     <title>Landing Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+      
+      .jumbotron {
+        background-image: url(./assets/img/background.jpg);
+        background-size: cover;
+        text-align: center;
+      }
+
+      #email {
+        width: 300px;
+      }
+      #appSummary {
+        text-align: center;
+        padding: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+      .card-img-top {
+        width: 100%;
+      }
+    </style>
   </head>
 
   <body>
@@ -31,7 +54,53 @@
         <button class="btn btn-success" type="submit">Log In</button>
       </form>
     </nav>
-
+    <div class="jumbotron">
+      <h1 class="display-3">LaPage</h1>
+      <p class="lead">Why so you need this? Download and reach your pot of gold.</p>
+      <hr class="my-2">
+      <p>Join our mailing list for gold.</p>
+      <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="email">Email address</label>
+          <div class="input-group">
+            <div class="input-group-addon">@</div>
+            <input type="email" class="form-control" id="email" placeholder="Your email">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign up</button>
+      </form>
+    </div>
+    <div class="container" id="appSummary">
+      <div class="row">
+        <h1>Why are we so awesome?</h1>
+        <p class="lead">Come on man! You've got to trust me on this one...</p>
+      </div>
+      <div class="card-deck-wrapper container">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/pic1.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title"><i class="fa fa-bell"></i> Card title</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/pic2.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title"><i class="fa fa-bicycle"></i> Card title</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/pic3.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title"><i class="fa fa-anchor"></i> Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   </body>
